@@ -15,6 +15,8 @@
 
 `java -version`
 
+3. Install Jenkins
+
 `sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key`
 
@@ -29,6 +31,12 @@
    `sudo systemctl status jenkins`
 
    ![jenkins status](./images/jenkins-status.jpg)
+
+4. By default Jenkins server uses TCP port 8080 – open it by creating a new Inbound Rule in your EC2 Security Group
+
+ ![jenkins inbound rule](./images/jenkins-inbound-rule.jpg)
+
+ 
 
 
 
