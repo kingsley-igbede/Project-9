@@ -36,7 +36,35 @@
 
  ![jenkins inbound rule](./images/jenkins-inbound-rule.jpg)
 
- 
+5. Perform initial Jenkins setup.
+
+[jenkins server browser status](http://100.26.20.73:8080)
+
+ ![jenkins server browser](./images/jenkins-server-browser.jpg)
+
+ *Retrieve password it from your server*
+
+ `sudo cat /var/lib/jenkins/secrets/initialAdminPassword`
+
+  ![customize jenkins](./images/customise-jenkins.jpg)
+
+  *Once plugins installation is done – create an admin user and you will get your Jenkins server address*
+  ### The installation is completed!
+
+   ![jenkins complete install](./images/jenkins-complete-install.jpg)
+
+
+   ### Step 2 – Configure Jenkins to retrieve source codes from GitHub using Webhooks.
+
+   
+
+
+
+
+
+
+
+
 
 
 
