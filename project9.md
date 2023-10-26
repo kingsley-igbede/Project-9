@@ -133,7 +133,8 @@ Click “Build Now” button, if you have configured everything correctly, the b
 
 *Save the configuration, open your Jenkins job/project configuration page and add another one “Post-build Action”*
 
-![jenkins build2 ssh](./images/jenkins-build2-ssh.jpg)
+![jenkins build6 ssh](./images/jenkins-build6-ssh.jpg)
+
 
 
 
